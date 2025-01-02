@@ -1,0 +1,2 @@
+depict a real life scenario of adaptor design  and composite design pattern used together. 
+Programming language must be python .
