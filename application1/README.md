@@ -3,7 +3,7 @@
 #### How to Run
 
 - Please get Google Credentials File ( Installed device ) \
-> NOTE : Please goto this [wiki]() page for understanding on how to get a creadentials file
+> NOTE : Please goto this [wiki](https://github.com/masterPiece93/google-drive-implementation/wiki/Google-Projects-and-credential-files-.) page for understanding on how to get a creadentials file
 - credential file name must be : `credentials.json` and it must be placed at the root level 
     - take the hint from below directory structure to understand the location of credentials.json file :
     ```
