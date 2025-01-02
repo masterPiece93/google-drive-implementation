@@ -1,0 +1,17 @@
+{
+    "record_1":{
+        "name": "ankit",
+        "age": 31,
+        "country": "india"
+    },
+    "record_2":{
+        "name": "raju",
+        "age": 25,
+        "country": "canada"
+    },
+    "record_3":{
+        "name": "tripti",
+        "age": 34,
+        "country": "brasil"
+    }
+}
