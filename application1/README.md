@@ -134,4 +134,5 @@ Enter a User ID for Identifying your Account : ankit8290
     ```
 4. there are commented example-function calls .
 5. uncomment the example-function call to get it executed .
-6. Then run the script : `run.py` every time .
+   - **NOTE** : `you must provide the folder / file id's of your own drive`
+7. Then run the script : `run.py` every time .
