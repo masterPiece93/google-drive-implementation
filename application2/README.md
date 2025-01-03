@@ -59,9 +59,12 @@ here tweak the use of `InstalledAppFlow` class of `google-api-python-client` lib
     (venv) .../application2$ python3 server.py
     ```
 
-When you'll successfully run the poc application , you will see a prompt like this below :
 
 
 > Now you be prompted on you browser automatically & will be redirected to google permissions Consent Screen .
 
 
+- When you'll successfully run the poc application , you will see a server logs like this below :
+
+
+![alt text](https://github.com/masterPiece93/google-drive-implementation/blob/55603089669268bc7f8928bfa02ae59d05148211/__static_resources/application2_server_op.png)
