@@ -1,5 +1,11 @@
 ### Running Google Drive API's in a Python Script
 
+- Using : google-api-python-client library 
+
+- category : Using a Device flow IN webserver
+
+here we use `InstalledAppFlow` class of `google-api-python-client` library .
+
 #### How to Run
 
 - Please get Google Credentials File ( Installed device ) \
@@ -44,13 +50,13 @@
 3. install requirements
 
     ```sh
-    pip install -r requirements.txt
+    (venv) .../application1$ pip install -r requirements.txt
     ```
 
 4. execute script 
 
     ```sh
-    python3 run.py
+    (venv) .../application1$ python3 run.py
     ```
 
 When you'll successfully run the poc application , you will see a prompt like this below :
@@ -64,6 +70,8 @@ you'll have to enter any string value as an identification of your login , for e
 (venv) .../application1$ run.py 
 Enter a User ID for Identifying your Account : ankit8290
 ```
+
+> Now you be prompted on you browser automatically & will be redirected to google permissions Consent Screen .
 
 And then the script will exit with no example execution .
 The screen will look something like this :
