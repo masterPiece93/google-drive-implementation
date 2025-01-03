@@ -67,4 +67,60 @@ here tweak the use of `InstalledAppFlow` class of `google-api-python-client` lib
 - When you'll successfully run the poc application , you will see a server logs like this below :
 
 
-![alt text](https://github.com/masterPiece93/google-drive-implementation/blob/55603089669268bc7f8928bfa02ae59d05148211/__static_resources/application2_server_op.png)
+![application2_server_op](https://github.com/masterPiece93/google-drive-implementation/blob/55603089669268bc7f8928bfa02ae59d05148211/__static_resources/application2_server_op.png)
+
+
+- click on the web link 
+
+![application2_server_op_2]()
+
+- browser will be opened on home page
+
+![application2_home_screen]()
+
+- enter the url :
+
+    > /ui/access-drive/<string:username>
+
+![application2_drive_api_sc_2]()
+
+- for example :
+
+    > /ui/access-drive/ankit8290
+
+![application2_drive_api_sc_1]()
+
+- if not already logged in , you'll be redirected to google 
+
+
+    ![google account screen]()
+
+    Here choose the account whose drive you want to acess .
+
+- You'll land on security page , because in GCP console we haven't verified our sample app account as this is for testing purpose .
+
+    - just click on `advanced` option 
+
+    ![applictaion2_redirection_sc_2]()
+
+    - then you'll land on following screen 
+
+    ![application2_redirection_sc_2]()
+
+    click on `Go to <YOUR-APP-NAME> (unsafe)`
+
+- Now You see the google consent screen as below :
+
+    ![google_consent_screen]()
+
+    click continue 
+
+- Now Your flow is complete . you'll get a screen as shown below :
+
+    ![application2_redirection_sc_complete]()
+
+- Now you can go back to to browser screen from where you redirected and it will look something like this now :
+
+    ![application2_final_screen]()
+
+

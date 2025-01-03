@@ -56,12 +56,11 @@ def home():
     return '''
     HOME
 
-    <a href="/ui"> go to drive examples ui </a>
+    <!-- <a href="/ui"> go to drive examples ui </a> -->
     '''
-
-@app.route('/ui')
-@app.route('/ui/<route>')
-def index(route: str):
+@app.route('/ui', )
+@app.route('/ui/<route>', )
+def index(route: str = ''):
 
     view = '''
     <div>
@@ -76,6 +75,7 @@ def index(route: str):
     '''
     
     _index_ = '''
+    <input >
     <a href="/ui/access-drive/"> Access Drive </a>
     '''
 
@@ -134,11 +134,12 @@ def access_drive(username: str,):
     token = TOKEN_FILE_FORMAT.format(username)
     token_file = os.path.join(__storage_dir__, token)
 
+    credentials = None
     if token_exists(token_file):
         credentials = Credentials.from_authorized_user_file(token_file, scopes)
     else:
         if not credentials or not credentials.valid:
-            redirect(url_for('grant_drive_access', username=username))
+            return redirect(url_for('grant_drive_access', username=username))
     view = '''
     <div>
         <b>{flash_message}</b>
