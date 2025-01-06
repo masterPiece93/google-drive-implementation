@@ -1,6 +1,7 @@
 # project specific
 # application-1
 credentials.json
+service_account.json
 storage/
 
 # Byte-compiled / optimized / DLL files
