@@ -60,15 +60,15 @@
 
 - When you'll successfully run the poc application , you will see a server logs like this below :
 
-![application4_server_log_1](https://github.com/xavient/gdrive-sync-poc-impl/blob/ea483a18a7199f66b9c726bda54d32ba5ae37092/__static_resources/application4_server_logs_1.png)
+![application4_server_log_1](https://github.com/masterPiece93/google-drive-implementation/blob/957f6c47e30ea5d0e10ea3ed7bd308a48e767ffc/__static_resources/application4_server_logs_1.png)
 
 
 - click on the web link 
 
-![application4_server_log_2](https://github.com/xavient/gdrive-sync-poc-impl/blob/ea483a18a7199f66b9c726bda54d32ba5ae37092/__static_resources/application4_server_logs_2.png)
+![application4_server_log_2](https://github.com/masterPiece93/google-drive-implementation/blob/957f6c47e30ea5d0e10ea3ed7bd308a48e767ffc/__static_resources/application4_server_logs_2.png)
 
 - browser will be opened on home page
 
-![application4_home_screen](https://github.com/xavient/gdrive-sync-poc-impl/blob/ea483a18a7199f66b9c726bda54d32ba5ae37092/__static_resources/application4_home_screen.png)
+![application4_home_screen](https://github.com/masterPiece93/google-drive-implementation/blob/957f6c47e30ea5d0e10ea3ed7bd308a48e767ffc/__static_resources/application4_home_screen.png)
 
 Post this just follow the instructions on the home page to run all the examples .
